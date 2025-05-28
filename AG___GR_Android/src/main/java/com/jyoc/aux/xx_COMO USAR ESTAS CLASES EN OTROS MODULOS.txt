@@ -1,0 +1,26 @@
+// +---------------------------------------------+
+// |                                             |
+// |  ****************************************   |
+// |  ****************************************   |
+// |  SE ESTAN USANDO CLASES DE OTROS MODULOS    |
+// |  ****************************************   |
+// |  ****************************************   |
+// |                                             |
+// +---------------------------------------------+
+
+//  podemos importar clases de un módulo en otro módulo
+// PERO EL MODULO QUE EXPORTA CLASES HA DE SER UNA LIBRERIA, NO UN PROYECTO EJECUTABLE
+
+// EN EL MODULO DONDE ESTAN LAS CLASES QUE SE EXPORTAN
+// BUil.gradle del módulo, cambiar application por library
+// -------------------------------------------------------
+//    plugins {
+//       // id 'com.android.application'
+//       id 'com.android.library'
+//    }
+
+
+//  EN EL MODULO QUE EXPORTAMOS
+//  siempre que se añada en el gradle
+//     dependencies {
+//         implementation project(':AG__GUT_Android')

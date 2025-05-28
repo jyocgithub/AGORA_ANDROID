@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Busca a Rolo</string>
+    <string name="item1">Instrucciones</string>
+    <string name="item2">Nuevo juego</string>
+    <string name="item3">Configurar juego</string>
+    <string name="item4">Seleccion personaje</string>
+    <string name="tit_instrucciones">Instrucciones de como usar la app</string>
+    <string name="desc_instrucciones">El juego es tipo buscaminas. Al pulsar en una de las casillas, sale un número que identifica cuánto rolitos hay alrededor: Ten cuidado por que
+    si pulsas en una casilla que tenga un iconoSpinner escondido, perderás. Si crees o tienes la certeza de que hay un iconoSpinner, haz una pulsación larga sobre iconoSpinner para señalarlo.
+    No realices una pulsación larga donde no esté iconoSpinner si no, perderás. Ganarás cuando encuentres a todos los rolitos.</string>
+    <string name="ok_instrucciones">Vale</string>
+    <string name="principiante">Principiante</string>
+    <string name="amateur">Amateur</string>
+    <string name="avanzado">Avanzado</string>
+
+    <string-array name="rolito_selection">
+        <item>Rolito 1</item>
+        <item>Rolito 2</item>
+        <item>Rolito 3</item>
+        <item>Rolito 4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<!-- Representa cualquier archivo en el directorio DCIM del área de almacenamiento EXTERNO PUBLICO 
+      ( /storage/emulated/0/DCIM )
+     En código se identifica con:   
+       File carpeta = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)           -->
+    <external-path     name="nomberdelpath1"     path="DCIM" />
+
+<!-- Representa cualquier archivo en el directorio DCIM/videosmios del área de almacenamiento EXTERNO PUBLICO.
+      ( /storage/emulated/0/DCIM/videosmios )
+     En código se identifica con:   
+       File carpeta = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "videosmios");
+       if(!directorioEnDCIM.exists())  carpeta.mkdirs();               -->
+    <external-path     name="nomberdelpath2"     path="DCIM/videosmios" />
+
+<!-- Representa cualquier archivo en el área de almacenamiento PRIVADO de la APLICACION (raiz)
+      ( /data/user/0/com.jyoc.ejemplo/files ) 
+     En código se identifica con:   
+       File file = new File(getFilesDir().getAbsolutePath() );                   -->
+    <files-path        name="nomberdelpath3"   path="." />
+    
+<!-- Representa cualquier archivo en el área de almacenamiento PRIVADO de la APLICACION, directorio "misimagenes"
+       ( /data/user/0/com.jyoc.ejemplo/files/misimagenes )                              
+     En código se identifica con:   
+        File file = new File(getFilesDir().getAbsolutePath() + "/misimagenes");         -->
+    <files-path       name="nomberdelpath4"      path="misimagenes" />
+    
+<!-- Representa cualquier archivo en el área de almacenamiento CACHE PRIVADO de la APLICACION
+       ( /data/user/0/com.jyoc.ejemplo/cache )                              
+     En código se identifica con:   
+        File file = new File( getCacheDir().getAbsolutePath() );        -->
+    <cache-path      name="nomberdelpath5"     path="images" />
+    
+<!-- Representa cualquier archivo en el área de almacenamientode EXTERNO de la APLICACION, directorio Pictures 
+      ( /storage/emulated/0/Android/data/com.jyoc.ejemplo/files/Pictures )
+     En código se identifica con:   
+       File carpeta = new File(Environment.getExternalFilesDir(Environment.DIRECTORY_PICTURES));     -->
+    <external-files-path    name="nomberdelpath6"    path="Pictures" />         
+    
+<!-- Representa cualquier archivo en el área de almacenamientode CACHE EXTERNO de la APLICACION 
+      ( /storage/emulated/0/Android/data/com.jyoc.ejemplo/cache )
+     En código se identifica con:   
+        File file = new File( getExternalCacheDir().getAbsolutePath() );        -->
+    <external-cache-path     name="nomberdelpath7"       path="." />
+   
+</paths>

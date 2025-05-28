@@ -1,0 +1,75 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+//        google()
+        mavenCentral()
+    }
+}
+
+
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+////        google()
+//        mavenCentral()
+//    }
+//}
+
+
+
+include ':AG_Butterknife'
+include ':AG_Calendar_agregar_citas'
+include ':AG_Sensores'
+include ':AG_Internacionalizacion'
+include ':AG_WebBrowser_WebView'
+include ':AG_NavigationDrawer_Fragments_SinViewModel'
+include ':AG_Mail_conadjuntos_PROBAR'
+include ':AG_Contactos'
+include ':AG_Hilos_con_asynctask'
+include ':AG_Fragments_Viewpager'
+include ':AG_CardView'
+include ':AG_Viewpager_Sin_Fragments'
+include ':AG_SQLite'
+include ':AG_Broadcats_bateria'
+rootProject.name = "AGORA_ANDROID"
+include ':AG_Permisos_OLD_NEW'
+include ':AG_Login_Google_Firebase'
+include ':AG_Rotacion'
+include ':AG_Hilos_sin_asynctask'
+include ':AG_ActivityResultLauncher'
+include ':AG_Retrofit_vs_SpringIntellij'
+include ':AG_Countdown_timer'
+include ':AG_Animaciones'
+include ':AG_Spinner_con_adapter_propio'
+include ':AG_SQLite_conimagenes'
+include ':AG_Pickers_y_Dialogs'
+include ':AG_Consumir_apis'
+include ':AG_Picasso_LoadImagenDeUrl'
+include ':AG_Fragments_Dinamicos_con_Listener'
+include ':AG_Fragments_Estaticos'
+include ':AG_RecyclerView_LIstView'
+include ':AG_Fragments_Dialogfragment'
+include ':AG_Gmaps_App_o_Activity'
+include ':AG_Retrofit_Pokemon_Rafi'
+include ':AG_Retrofit_Weather_Rafi'
+include ':AG_SQlite_Room'
+include ':AG_Video_SinFileProvider'
+include ':AG_VideoConFileProvider'
+include ':AG_FileProvider'
+include ':AG_Imagenes_Fotos'
+include ':AG_Comunicaciones_Almacenamiento'
+include ':AG_Mediaplayer'
+include ':AG_LivedataViewmodel'
+include ':AG_AppBarLayout'
+include ':AG_Temas_Estilos_Dianoche'
+include ':AG_BottomNavigationView'
+include ':AG_DialogFragment'
+include ':AG_ReproSimple'
+include ':AG_NavigationDrawer_Fragments_ConViewModel'
+include ':AG_Qrcode'
+include ':AG_Drawfinger'
+include ':AG_Alarmas'
+include ':AG_MAIL_SEND'
+include ':AG___GR_Android'
+include ':AG_Firebase_Firestore'
+include ':AG___BYTEA_AUX'

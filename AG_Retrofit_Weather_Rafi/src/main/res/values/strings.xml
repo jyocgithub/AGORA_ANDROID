@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rafaela_TareaUF5NetworkingJSON</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="consultar_tiempo">Consultar tiempo</string>
+    <string name="tv_num_lluvia">Porcentaje lluvia</string>
+    <string name="tv_ciudad">Ciudad</string>
+    <string name="tv_hora">Hora</string>
+    <string name="tv_grados">Grados</string>
+    <string name="tv_humedad">Humedad</string>
+    <string name="tv_lluvia">LLuvia</string>
+    <string name="tv_num_humedad">numero humedad</string>
+    <string name="tv_cielo">tipo de cielo</string>
+</resources>

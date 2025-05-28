@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PruebaRetrofitWS</string>
+    <string name="btn_consultar">Conusltar WebService</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOO            ZONA INTERNA             OOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+
+    <!-- ************************************************************************************** -->
+    <!-- *** DESC: Archivos en area INTERNA / DIR FILES Y TODOS LO QUE CUELGA DE EL         *** -->
+    <!-- *** DIR : /data/data/com.example.ag_comunicaciones/files                           *** -->
+    <!-- *** DIR : /data/data/com.example.ag_comunicaciones/files/miscosas                  *** -->
+    <!-- *** DIR : /data/data/com.example.ag_comunicaciones/files/miscosas/bin              *** -->
+    <!-- *** FILE: File file = new File(   getFilesDir()  , "fich3.txt")                    *** -->
+    <!-- *** FILE: File file = new File(   getFilesDir()+"/misfiles"  , "fich4.txt")        *** -->
+    <!-- *** FILE: File file = new File(   getFilesDir()+"/misfiles/bin", "fich16.txt")     *** -->
+    <!-- ************************************************************************************* -->
+    <files-path        name="nombrePathInternal1"   path="." />
+ 
+    
+
+
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOO      ZONA EXTERNA PRIVADA           OOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+
+    <!-- ************************************************************************************** -->
+    <!-- *** DESC: Archivos en area EXTERNA PRIVADA - FILES                                 *** -->
+    <!-- ***       y a las subcarpetas internas de PUBLICAPP-FILES                          *** -->
+    <!-- *** DIR : /storage/emulated/0/Android/data/com.jyoc.ejemplo/files                  *** -->
+    <!-- ***                                                                                *** -->
+    <!-- *** FILE: File file = new File( getExternalFilesDir(".") , "fich7.txt");           *** -->
+    <!-- *** FILE: File file = new File( getExternalFilesDir("./miscosas") , "fich8.txt");  *** -->
+    <!-- ************************************************************************************** -->
+    <external-files-path    name="nombrePathExternalPrivado1"    path="." />
+
+    
+    
+    
+    
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOO      ZONA EXTERNA PUBLICA           OOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+
+    <!-- ************************************************************************************************************************** -->
+    <!-- *** DESC: Archivos en area EXTERNA PUBLICA                                                                             *** -->
+    <!-- *** DIR : /storage/emulated/0/PICTURES  (O SIMILAR)                                                                    *** -->
+    <!-- ***                                                                                                                    *** -->
+    <!-- *** FILE:File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),"f1.txt"); *** -->
+    <!-- ************************************************************************************************************************** -->
+    <external-path     name="nombrePathExternalPublic2"     path="Download" />
+    <external-path     name="nombrePathExternalPublic2"     path="Pictures" />
+    <external-path     name="nombrePathExternalPublic3"     path="." />
+
+
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOO      ZONA CACHES                    OOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+
+    <!-- ************************************************************************************** -->
+    <!-- *** DESC: Archivos en area CACHE PRIVADO DE LA APP                                 *** -->
+    <!-- *** DIR : /data/user/0/com.jyoc.ejemplo/cache                                      *** -->
+    <!-- ***                                                                                *** -->
+    <!-- *** FILE: File file = new File( getCacheDir().getAbsolutePath() );                 *** -->
+    <!-- ************************************************************************************** -->
+    <cache-path      name="nombrePathCachePrivado1"     path="images" />
+
+    <!-- ************************************************************************************** -->
+    <!-- *** DESC: Archivos en area CACHE PUBLICO DE LA APP                                 *** -->
+    <!-- *** DIR : /storage/emulated/0/Android/data/com.jyoc.ejemplo/cache                  *** -->
+    <!-- ***                                                                                *** -->
+    <!-- *** FILE: File file = new File( getExternalCacheDir().getAbsolutePath() );         *** -->
+    <!-- ************************************************************************************** -->
+    <external-cache-path     name="nombrePathExternalPrivadoCache1"   path="." />
+
+</paths>
