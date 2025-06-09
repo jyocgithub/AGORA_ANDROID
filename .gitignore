@@ -1,0 +1,13 @@
+# Ignorar archivos de Firebase/Google en TODOS los proyectos
+# El patrón **/ significa:        "En cualquier subdirectorio, a cualquier profundidad".
+**/google-services.json
+**/firebase.json
+**/.firebaserc
+**/serviceAccountKey.json
+
+# Ignorar carpetas de build/dependencias
+**/node_modules/
+**/build/# Auto detect text files and perform LF normalization
+
+# Usar ! (ej: !proyecto-1/google-services.json para excluir uno específico).
+
